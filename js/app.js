@@ -77,9 +77,9 @@ window.localStorage.removeItem("totalCompraStorage")
 
 // Creacion de objetos y envio de objetos a el arreglo de productos. 
 
-const jeanSlimfit = new Jean (1,"jeans","Jean Slimfit","Jean elastico slimfit color azul",100,1,"../assets/slimfit.webp"); 
-const jeanRegularfit = new Jean (2,"jeans","Jean Regularfit","Jean resistente regularfit negro",120,1,"../assets/regularfit.webp");
-const jeanWidefit = new Jean (3,"jeans","Jean Widefit","Jean comodo widefit color azul",150,1,"../assets/widefit.webp");
+const jeanSlimfit = new Jean (1,"jeans","Jean Slimfit","Jean elastico slimfit color azul",100,1,"./assets/slimfit.webp"); 
+const jeanRegularfit = new Jean (2,"jeans","Jean Regularfit","Jean resistente regularfit negro",120,1,"./assets/regularfit.webp");
+const jeanWidefit = new Jean (3,"jeans","Jean Widefit","Jean comodo widefit color azul",150,1,"./assets/widefit.webp");
 
 productos.push(jeanSlimfit, jeanRegularfit, jeanWidefit)
 
