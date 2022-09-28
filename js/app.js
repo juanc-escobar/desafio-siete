@@ -21,6 +21,10 @@ let carrito = [];
 let totalCompra = 0;
 let itemsCarrito = 0;
 
+
+// Se agrega mensaje de bienvenida 
+
+
 (async () => {
     let {value: nombreUsuario} = await Swal.fire ({
         title: "Bienvendio!",
@@ -136,6 +140,7 @@ const agregarCarrito = (productoId) => {
         localStorage.setItem('carritoStorage', JSON.stringify(carrito))
         localStorage.setItem('totalCompraStorage', JSON.stringify(totalCompra))
         actualizarCarrito()
+         // Se agrega notificacion al agregar producto
         Swal.fire({
         text: 'Agregaste un producto al carrito',
         timer: 1000,
@@ -156,6 +161,7 @@ const agregarCarrito = (productoId) => {
         localStorage.setItem('carritoStorage', JSON.stringify(carrito))
         localStorage.setItem('totalCompraStorage', JSON.stringify(totalCompra))
         actualizarCarrito( )
+        // Se agrega notificacion al agregar producto
         Swal.fire({
             text: 'Agregaste un producto al carrito',
             timer: 1000,
@@ -177,6 +183,9 @@ const checkOut = document.getElementById("check-out")
 
 checkOut.addEventListener("click", () => {
     const nombreUsuario = JSON.parse(window.localStorage.getItem("nombreUsuarioStorage"))
+
+    // Se agrega mensaje para indicar que el carrito esta vacio o de gratitud si el carrito esta lleno
+
     if (carrito.length === 0) {
         Swal.fire ({
             title: `${nombreUsuario}`,
