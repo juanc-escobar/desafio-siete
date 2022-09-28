@@ -206,7 +206,7 @@ checkOut.addEventListener("click", () => {
             }
         }).then((result) => {
             if (result.isConfirmed) {
-              window.location.assign("checkout.html")
+              window.location.assign("./pages/checkout.html")
             }
         })
     }
