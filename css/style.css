@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-size: 2rem;
+line-height: 1.5;
+}
+
+
+.nav{
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding: 1.5rem;
+background-color: rgb(158, 137, 255);
+color: white;
+}
+
+.nav__logo {
+text-decoration: none;
+}
+
+.logo {
+    width: 45%;
+}
+
+.nav__list {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1rem;
+}
+
+.nav__item {
+padding: 0.5rem;
+cursor: pointer;
+}
+
+.nav__item, a {
+text-decoration: none;
+display: block;
+padding: 0.5rem;
+text-align: center;
+font-size: 2.5rem;
+font-weight: 500;
+}
+
+
+.counter {
+    font-size: 1rem;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 0.2rem;
+    background-color: red;
+    color: white;
+}
+
+.titulo-principal {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.texto-postitulo {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.titulo-secundario {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.titulos-seccion {
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+.card-contenedor {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    border-radius: 7px;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.card__titulo {
+font-size: 2.5rem;
+font-weight: 600;
+padding: 2rem;
+}
+
+.card__img {
+    width: 70%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.card__descripcion {
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+.card__precio {
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.card__btn {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card__btn:hover {
+    color: white;
+    background-color: rgb(158, 137, 255);
+    border: 1px solid white;
+}
+
+
+.factura {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem;
+}
+
+.factura__img {
+    width: 7%;
+    object-fit: contain;
+}
+
+
+.factura-titulo, span {
+    font-weight: 400;
+    padding: 0, 2rem;
+}
+
+.factura-titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.padd-min{
+    padding: 1rem;
+}
+
+.bold {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 6.5rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    padding: 3rem;
+}
+
+.login__user, .login__password {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.login__btn {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 1rem 3rem;
+    color: black;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.login__btn:hover {
+    color: white;
+    background-color: rgb(158, 137, 255);
+    border: 1px solid white;
+}
+
+.formularios {
+    margin-top: 15%;
+}
+
+.login__legend {
+    font-size: 2.5rem;
+    color:  rgb(158, 137, 255);
+    font-weight: 600;
+}
+
+.swal-button {
+    font-size: 2rem !important;
+    padding: 1.5rem;
+    background-color: rgb(158, 137, 255);
+}
+
+.swal-input{
+padding: 2rem;
+}
+
+.swal-title {
+font-size: 5rem;
+}
+
+.swal-popup {
+    font-size: 1.8rem;
+}
+
+.swal-popup-time {
+    font-size: 2rem;
+    color: white;
+    padding: 0;
+}
